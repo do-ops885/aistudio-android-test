@@ -154,7 +154,7 @@ dependencies {
         }
 
         // Apache Commons — uncontrolled recursion, DoS
-        add("implementation", "org.apache.commons:commons-lang3:3.18.0") {
+        add("implementation", "org.apache.commons:commons-lang3:3.20.0") {
             because("CVE-2025-48924 uncontrolled recursion")
         }
         add("implementation", "org.apache.commons:commons-compress:1.26.0") {
