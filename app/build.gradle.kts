@@ -138,10 +138,10 @@ dependencies {
         }
 
         // BouncyCastle — keystream reuse, LDAP injection, broken crypto
-        add("implementation", "org.bouncycastle:bcprov-jdk18on:1.84") {
+        add("implementation", "org.bouncycastle:bcprov-jdk18on:1.85") {
             because("CVE-2025-14813 GOST keystream reuse, GHSA-c3fc-8qff-9hwx LDAP injection")
         }
-        add("implementation", "org.bouncycastle:bcpkix-jdk18on:1.84") {
+        add("implementation", "org.bouncycastle:bcpkix-jdk18on:1.85") {
             because("GHSA-wg6q-6289-32hp broken crypto algorithm")
         }
 
