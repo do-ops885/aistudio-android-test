@@ -175,7 +175,7 @@ dependencies {
         }
 
         // Eclipse JGit — XXE vulnerability
-        add("implementation", "org.eclipse.jgit:org.eclipse.jgit:6.10.1.202505221210-r") {
+        add("implementation", "org.eclipse.jgit:org.eclipse.jgit:7.7.0.202606012155-r") {
             because("GHSA-vrpq-qp53-qv56 XXE")
         }
 
